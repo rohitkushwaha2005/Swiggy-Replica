@@ -1,0 +1,79 @@
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    color: #888;
+    transition: all 0.3s;
+  }
+  
+  .input-field:focus + .input-label,
+  .input-field:not(:placeholder-shown) + .input-label {
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+    color: #ff6600;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .signup-button-wrapper {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signup-button {
+    padding: 10px;
+    width: 100%;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #e65c00;
+  }
+  
+  .terms-conditions {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .terms-link,
+  .privacy-link {
+    color: #ff6600;
+    text-decoration: none;
+  }
+  
+  .terms-link:hover,
+  .privacy-link:hover {
+    text-decoration: underline;
+  }
+  

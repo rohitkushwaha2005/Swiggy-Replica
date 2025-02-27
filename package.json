@@ -1,0 +1,67 @@
+{
+  "name": "swiggy-clone",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@vercel/speed-insights": "^1.1.0",
+    "ansi-html": "^0.0.9",
+    "bootstrap": "^5.3.3",
+    "cra-template": "1.2.0",
+    "framer-motion": "^12.4.7",
+    "icons": "^1.0.0",
+    "lucide-react": "^0.469.0",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^11.0.5",
+    "swiggy-clone": "file:",
+    "web-vitals": "^4.2.4",
+    "webpack": "^5.97.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "A simple clone of the Swiggy homepage built using **HTML**, **CSS**, and **React**. This project is designed to mimic the look and feel of the original Swiggy homepage and serves as a practice project to enhance web design and frontend development skills.",
+  "main": "script.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "babel-jest": "^27.5.1",
+    "eslint-plugin-testing-library": "^7.1.1",
+    "jest": "^29.7.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}

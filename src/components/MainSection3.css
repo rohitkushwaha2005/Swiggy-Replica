@@ -1,0 +1,51 @@
+/* MainSection3.css */
+
+.section-3 {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    min-width: 1240px;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .dishes {
+    height: 100%;
+    width: calc(100%);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+  }
+  
+  .menu-dishes {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    /* overflow-y: hidden; */
+    flex-grow: 5;
+    scroll-behavior: smooth;
+  }
+  
+  .menu-dishes img {
+    height: 165px;
+  }
+  
+  .dishes-wrap h1 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    padding: 10px;
+  }
+  

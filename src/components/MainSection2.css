@@ -1,0 +1,90 @@
+.clearfix:after {
+    content: "";
+    clear: both;
+  }
+  
+  .inner {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .section-2 {
+    min-width: 1240px;
+  }
+  
+  .menu-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1240px;
+    position: relative;
+    background-color: #ff5200;
+    flex-grow: 1;
+    width: 100%;
+  }
+  
+  .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-grow: 1;
+    gap: 30px;
+  }
+  
+  .specific a img {
+    height: 280px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .specific a img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .specific-size a img {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    z-index: 1;
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .menu-boxes {
+    animation: fadeIn 1s ease-in-out; 
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .boxes:hover {
+    transform: scale(1.02); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .boxes {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease; 
+  }
+  
+  .boxes:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  }
